@@ -1,0 +1,62 @@
+body {
+  margin-top: 40px;
+  background-color: #4863A0;
+}
+
+#container1 {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: #858f78;
+    border-width: 0px 0px 16px 0px;
+	background-color: #858f78;
+}
+
+table, th, tr, td {
+border: 1px solid #858f78;
+border-collapse: collapse;
+}
+
+table th {
+background: #858f78;
+color:#000000;
+}
+
+th, td {
+padding: 15px;
+text-aligh: left;
+}
+
+tr:nth-child(even) {background: #f2f2f2;}
+
+tr:nth-child(odd) {background: blue;}
+
+
+nav {
+	font-family: Georgia,"Times New Roman",	serif;
+	font-size: 1.25 em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	 padding: 0;
+	 margin-top: 0.5em; 
+	 margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	 background-color: #E5E4E2;
+	 border-radius: 2em; 
+	 list-style-type: none;
+	 margin: 0.3em;
+	 padding: 1em;
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #000000;
+	text-decoration: underline;
+}

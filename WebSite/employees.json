@@ -1,0 +1,94 @@
+{
+    "employees": [
+      {
+        "name": "Varij",
+        "title": "CEO/Owner",
+        "department": "Rice-Cooker/All",
+        "bio": "I always setup high standards and working hard to reach the top-most of our company to get succeeded.The high standards here is about performance with integrity. That’s what you have to do. "
+      },
+      {
+        "name": "Jacqueline",
+        "title": "President",
+        "department": "Rice-Cooker/All",
+        "bio": "She leads our marketing operations. Her role includes marketing process from research and planning to execution and analysis."
+      },
+      {
+        "name": "Shikhar",
+        "title": "Head",
+        "department": "Rice-Cooker/All",
+        "bio": "He acts as the Voice of the Customer across the organisation. He is responsible for identifying and developing all culture, process and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Shreyas",
+        "title": "Employee",
+        "department": "Electric",
+        "bio": "He is responsible for identifying and developing all electrical and machinery process and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Rohit",
+        "title": "Employee",
+        "department": "Parts",
+        "bio": "He is responsible for identifying and developing all machinery parts and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Virat",
+        "title": "Employee",
+        "department": "Management",
+        "bio": "He is responsible for identifying and developing all management performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Dravid",
+        "title": "Employee",
+        "department": "Inspection",
+        "bio": "He is responsible for the training of employees and checking process and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Chahar",
+        "title": "Employee",
+        "department": "Power Outage check",
+        "bio": "He is responsible for identifying the power outage checking and performance improvements and efficiencies for the products"
+      },
+      {
+        "name": "Pooja",
+        "title": "Employee",
+        "department": "Accounts of company",
+        "bio": "She is responsible for all accounts and details for the customer as well as company"
+      },
+      {
+        "name": "Priya",
+        "title": "Employee",
+        "department": "Law and Service of company",
+        "bio": "She is responsible for the law and services for the whole company"
+      },
+      {
+        "name": "Hardik",
+        "title": "Employee",
+        "department": "Tester",
+        "bio": "He is responsible for identifying and testing all electrical and machinery process and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Kishan",
+        "title": "Employee",
+        "department": "Tester",
+        "bio": "He is responsible for identifying and testing all electrical and machinery process and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Disha",
+        "title": "Employee",
+        "department": "Tester",
+        "bio": "She is responsible for identifying and testing all electrical and machinery process and performance improvements and efficiencies for the customer"
+      },
+      {
+        "name": "Aarzoo",
+        "title": "Employee",
+        "department": "Power outage check",
+        "bio": "She is responsible for identifying the power outage checking and performance improvements and efficiencies for the products"
+      },
+      {
+        "name": "Geetanjali",
+        "title": "Employee",
+        "department": "Tester",
+        "bio": "She is responsible for identifying and testing all electrical and machinery process and performance improvements and efficiencies for the customer"
+      }
+    ]
+  }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Varij Rughani -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+   	<title>Ram Rice Cookers</title>
+    <!--<script type="text/javascript" src="jquery.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>  
+	<script>  
+	$(document).ready (function () {  
+ 		$('#first_form').submit (function (e) {  
+    	e.preventDefault();  
+    	var first_name = $('#first_name').val();  
+    	var last_name = $('#last_name').val();  
+    	var email = $('#email').val();  
+    	var password = $('#password').val();  
+		var number = $('#number').val();  
+  		$(".error").remove();  
+
+		if (first_name.length < 1) {  
+      		$('#first_name').after('<span class="error">This field is required</span>');  
+    	}  
+		if (number.length < 1) {  
+      		$('#number').after('<span class="error">This field is required</span>');  
+    	}  
+    	if (last_name.length < 1) {  
+      		$('#last_name').after('<span class="error">This field is required</span>');  
+    	}  
+    	if (email.length < 1) {  
+      		$('#email').after('<span class="error">This field is required</span>');  
+    	} else {  
+      		var regEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+      		var validEmail = regEx.test(email);  
+      	if (!validEmail) {  
+        	$('#email').after('<span class="error">Enter a valid email</span>');  
+      	}  
+    }  
+    if (password.length < 8) {  
+      $('#password').after('<span class="error">Password must be at least 8 characters long</span>');  
+    }  
+  });  
+  
+  $('form[id="second_form"]').validate({  
+    rules: {  
+      fname: 'required',  
+      lname: 'required',  
+      user_email: {  
+        required: true,  
+        email: true,  
+      },  
+      psword: {  
+        required: true,  
+        minlength: 8,  
+      }  
+    },  
+    messages: {  
+      fname: 'This field is required',  
+      lname: 'This field is required',  
+      user_email: 'Enter a valid email',  
+      psword: {  
+        minlength: 'Password must be at least 8 characters long'  
+      }  
+    },  
+    submitHandler: function(form) {  
+      form.submit();  
+    }  
+  });  
+});  
+</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,  initial-scale=1">
+</head>
+<body>
+	<div id="logo"> 
+	<a href="index.html"><img src="images/logo1.PNG" alt="logo"></a> 
+	</div> 
+
+	<div id="container">
+	<!-- Use the header area for the website name or logo -->
+	<header>
+		<a href="index.html"><img src="images/rc2.png" alt="rc"></a>
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	 <nav>
+		
+			<ul class="menu">
+			
+				<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+            <li><a href="team.html">Team</a></li>
+			<li><a href="specials.html">Special</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="media.html">Media</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+            </ul>
+	 </nav>
+	 
+	 <!-- Use the main area to add the main content of the webpage -->
+	 <main> 
+     
+	 <!-- First Form -->  
+<h2 align="center"><font style="text-shadow: 2px 2px 5px #0066FF;"> User - Contact Form</font></h3>
+		    <fieldset id="fieldset">
+			  <legend>Your contact information:</legend>
+<form id="first_form" method="post" action="">  
+  <div>  
+    <label for="first_name"> Enter First Name: </label>  
+    <input type="text" id="first_name" name="first_name" required size="30px"></input>  
+  </div>
+  <br>  
+  <div> 
+    <label for="last_name"> Enter Last Name: </label>  
+    <input type="text" id="last_name" name="last_name" required size="30px"></input>  
+  </div> 
+  <br> 
+  <div>  
+   <label for="last_name"> Enter Number: </label>  
+  <input type="text"  id="number" name="number" required size="30px">  
+  </div>
+  <br>  
+  <div>  
+    <label for="email"> Enter Email: </label>  
+    <input type="email" id="email" name="email" required size="30px"></input>  
+  </div>  
+  <br>
+  <div>  
+    <label for="password"> Enter Password: </label>  
+    <input type="password" id="password" name="password" required size="30px"></input>  
+  </div>
+  <br>  
+  <div>  
+    <label for="password"> Confirm Password: </label>  
+    <input type="password" id="password" name="password" required size="30px"></input>  
+  </div>
+  <br>  
+  <div>  
+    <input type="submit" value="Submit"/>  
+  </div>  
+</form>
+     
+          <br><hr>
+           <h2>Still Need Any Help? </h2>
+    		<h3> Don't Worry!!</h3>	 
+	 		<p><strong>We are located at:</strong><br>
+        			 1670 London line ,<br>
+        			 Sarnia, ON N7W 1B2</p>
+		
+     <!--<p>Phone Number<br>
+      <a class="mobile" href="tel:7337536630">9265522705</a>-->
+	  
+     <p>Email Address<br>
+      <a href="mailto:customercare@ramrc.net">Request Information<br></a></p>
+	  <br><br>
+	 
+	 </main><br><br>
+	 <!-- Use the footer area to add webpage footer content -->
+	 <footer>
+	 &copy; Copyright 2009. All Rights Reserved.<br>
+	 <a href="mailto:customercare@ramrc.net">Request Information<br></a>
+		Varij Rughani &nbsp; &nbsp; C0804317
+	 </footer>
+	 
+	 </div>
+	 
+</body>
+</html>

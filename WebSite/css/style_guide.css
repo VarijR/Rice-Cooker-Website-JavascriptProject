@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/*----- Menu -----*/
+.menu{
+	width: 100%;
+	list-style: none;
+	float: right;
+	background-color: #06F;
+	padding: 10px;
+}
+
+.menu li{
+	color: #000;
+	font-size: 15px;
+	float: left;
+	padding: 12.5px;
+	border-style: solid;
+	border-color: #000;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+.menu li:hover{
+	background: #2F4F4F;
+	border-style: solid;
+	border-color: #778899;
+}
+
+.menu li:hover a{
+	color: #fff;
+	font-size: 18px;
+}
+.menu li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	transition: 0.5s all;
+}
+
+h3{
+	font-size: 22px;
+}
+
+/*----- size class -----*/
+.size{
+	font-size: 50px;
+	padding: 20px;
+	padding-top: 90px;
+	text-align: center;
+}
+
+/*----- Style Branding -----*/
+.styleBranding{
+	height: 100vh;
+	background: #778899;
+	border-bottom: 10px solid #2F4F4F;
+}
+
+.styleBranding p{
+	font-size: 20px;
+	padding: 10px;
+	
+}
+.styleBranding .center{
+	text-align: center;
+	margin: 20px 80px;
+	background-color: #C0C0C0;
+	box-shadow: 5px 10px #2F4F4F;
+}
+.styleBranding .size{
+	padding-top: 150px;
+}
+
+/*----- Typography -----*/
+.typography{
+	height: 100vh;
+	background: #09F;
+	box-sizing: border-box;
+}
+.typography p{
+	font-size: 20px;
+	padding: 10px;
+	
+}
+.typography .center{
+	color: #000;
+	text-align: center;
+	margin: 20px 80px;
+	background-color: #778899;
+	box-shadow: 5px 10px #2F4F4F;
+}
+.typography ul{
+	text-align: left;
+	padding-left: 50px;
+}
+.typography ul li{
+	padding: 10px;
+}
+.typography .center h1{
+	font-size: 32px;
+	text-align: left;
+	color: #000;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.typography .center h2{
+	font-size: 24px;
+	text-align: left;
+	color: #000;
+	padding: 25px;
+}
+
+
+/*----- Color Palette -----*/
+.colorPalette{
+	height: 100vh;
+	background: #778899;
+	box-sizing: border-box;
+}
+.colorPalette p{
+	font-size: 20px;
+	padding: 10px;
+	
+}
+.colorPalette .center{
+	color: #000;
+	margin: 20px 80px;
+	background-color: #C0C0C0;
+	box-shadow: 5px 10px #2F4F4F;
+	padding: 10px;
+}
+.color1{
+	color: #fff;
+	background-color: #03F;
+	margin: 10px 100px;
+	border-radius: 10px;
+	text-align: center;
+}
+.color2{
+	color: #000;
+	background-color: #C9C;
+	margin: 10px 100px;
+	border-radius: 10px;
+	text-align: center;
+}
+.color3{
+	background-color: #6C6;
+	margin: 10px 100px;
+	border-radius: 10px;
+	text-align: center;
+}
+.color4{
+	color: #fff;
+	background-color: #FF2400;
+	margin: 10px 100px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+
+/*----- Voice -----*/
+.voice{
+	height: 50vh;
+	background: #09F;
+	box-sizing: border-box;
+}
+.voice p{
+	font-size: 20px;
+	padding: 20px;
+}
+.voice .center{
+	color: #fff;
+	text-align: center;
+	margin: 20px 80px;
+	background-color: #778899;
+	box-shadow: 5px 10px #2F4F4F;
+}
+.voice .size{
+	padding-top: 75px;
+}
+
+/*----- Icongraphy -----*/
+.icongraphy{
+	height: 75vh;
+	background: #778899;
+	box-sizing: border-box;
+}
+.icongraphy p{
+	font-size: 20px;
+	padding: 20px;
+}
+.icongraphy .center{
+	color: #000;
+	text-align: center;
+	margin: 20px 80px;
+	background-color: #C0C0C0;
+	box-shadow: 5px 10px #2F4F4F;
+	padding: 20px;
+}
+.icongraphy h6{
+	color: #000;
+}
+.icongraphy i{
+	padding: 20px;
+}
+.icongraphy .fa-color{
+	color: #000;
+}
+
+
+/*----- Imagery -----*/
+.imagery{
+	height: 125vh;
+	background: #A9A9A9;
+	box-sizing: border-box;
+}
+.imagery .center{
+	color: #000;
+	text-align: center;
+	margin: 10px 80px;
+	background-color: #778899;
+	box-shadow: 5px 10px #2F4F4F;
+	padding: 20px;
+}
+.imagery img{
+	display: inline-block;
+	width: 20%;
+	border-style: solid;
+	border-color: #000;
+}
+
+
+/*----- Sample Form -----*/
+.sampleForm{
+	height: 125vh;
+	background: #09F;
+	box-sizing: border-box;
+}
+.sampleForm .center{
+	color: #000;
+	margin: 10px 80px;
+	background-color: #C0C0C0;
+	box-shadow: 5px 10px #2F4F4F;
+	padding: 20px;
+}
+.sampleForm p{
+	font-size: 30px;
+	padding: 20px;
+}
+.sampleForm .btn{
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+
+
+/*----- Buttons -----*/
+.buttons{
+	height: 60vh;
+	background: #FFF;
+	box-sizing: border-box;
+}
+.buttons .center{
+	color: #fff;
+	text-align: center;
+	margin: 20px 80px;
+	background-color: #778899;
+	box-shadow: 5px 10px #2F4F4F;
+}
+.buttons button{
+	padding: 10px;
+	margin: 20px;
+	/*border-radius: 20px;*/
+	transition: 0.4s all;
+	border-style: hidden;
+	border-color: #000;
+}
+.buttons .size{
+	padding-top: 60px;
+}
+.buttons .button1{
+	font-size: 20px;
+	background-color: #09F;
+}
+.buttons .button1:hover{
+	font-size: 25px;
+	background-color: #FFF;
+}
+.buttons .button2{
+	font-size: 20px;
+	background: #C9C;
+}
+.buttons .button2:hover{
+	font-size: 25px;
+	background-color: #FFF;
+}
+.buttons .button3{
+	background-color: #6C9;
+	font-size: 20px;
+}
+.buttons .button3:hover{
+	font-size: 25px;
+	background-color: #FFF;
+}
+
+
+/*----- Sample Form -----*/
+.sampleForm{
+	height: 125vh;
+	background: #09F;
+	box-sizing: border-box;
+}
+.sampleForm .center{
+	color: #000;
+	margin: 10px 80px;
+	background-color: #C0C0C0;
+	box-shadow: 5px 10px #2F4F4F;
+	padding: 20px;
+}
+.sampleForm p{
+	font-size: 30px;
+	padding: 20px;
+}
+.sampleForm .btn{
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+/*----- Spacing -----*/
+.spacing{
+	height: 50vh;
+	background: #09F;
+	box-sizing: border-box;
+}
+.spacing .center{
+	color: #000;
+	text-align: center;
+	margin: 20px 80px;
+	background-color: #C0C0C0;
+	box-shadow: 5px 10px #2F4F4F;
+}
+.spacing .size{
+	padding-top: 30px;
+}
+.spacing p{
+	font-size: 15px;
+	padding: 20px;
+}

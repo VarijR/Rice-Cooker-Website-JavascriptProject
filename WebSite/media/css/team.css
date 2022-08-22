@@ -1,0 +1,72 @@
+/*WHO WE ARE*/
+
+.w-w-a {
+	text-align: center;
+}
+
+.w-w-a h2 {
+	color: #2b485a;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
+.w-w-a-cont-head {
+	color: #8A8B95;
+    font-family: Verdana, Arial, sans-serif;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+.w-w-a-cont {
+	color: #8A8B95;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.w-w-a-cont div {
+	margin: 0px 150px 0px 150px;
+}
+
+/*OUR TEAM*/
+.o-t {
+	text-align: center;
+}
+
+.o-t h2 {
+	color: #2b485a;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
+.o-t h3 {
+	color: #2b485a;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  text-align: center;
+  padding-left: 14%; 
+}
+
+.column h2 {
+	color: #2B485A;
+    font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+}
